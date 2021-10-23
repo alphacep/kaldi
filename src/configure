@@ -811,10 +811,6 @@ fi
 # - Otherwise we take its value as the target architecture
 # Otherwise we set the target architecture to the output of `uname -m`.
 if is_set $HOST; then
-#  CXX="$HOST-$CXX"
-  AR="$HOST-$AR"
-  AS="$HOST-$AS"
-  RANLIB="$HOST-$RANLIB"
 
   # The host triple will be something like "armv8-rpi3-linux-gnueabihf". We
   # need the first field which is the target architecture for this build. The
