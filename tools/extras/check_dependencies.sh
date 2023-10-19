@@ -185,7 +185,7 @@ if [ -n "$debian_packages" ]; then
         (rhel|centos|redhat) echo "yum install $redhat_packages"; break;;
         (fedora) echo "dnf install $redhat_packages"; break;;
         (suse) echo "zypper install $opensuse_packages"; break;;
-        (debian) echo "apt-get install $debian_packages"; break;;
+        (debian) echo "apt-get install -y $debian_packages"; break;;
       esac
     done
   )
