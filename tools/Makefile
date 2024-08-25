@@ -9,7 +9,7 @@ WGET ?= wget
 
 # Note: OpenFst requires a relatively recent C++ compiler with C++17 support,
 # e.g. g++ >= 4.7, Apple clang >= 5.0 or LLVM clang >= 3.3.
-OPENFST_VERSION ?= 1.8.0
+OPENFST_VERSION ?= 1.7.9
 CUB_VERSION ?= 1.8.0
 # No '?=', since there exists only one version of sph2pipe.
 SPH2PIPE_VERSION = 2.5
